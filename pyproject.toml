@@ -1,0 +1,25 @@
+[tool.poetry]
+name = "src"
+version = "0.1.0"
+description = ""
+authors = ["Saifullah Babrak <saifullah.babrak@twoday.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+mlflow = "^2.19.0"
+pytest = "^8.3.4"
+pytest-cov = "^6.0.0"
+loguru = "^0.7.3"
+cowsay = "^6.1"
+databricks-connect = "13.3.2"
+python-dotenv = "^1.0.1"
+pytest-mock = "^3.14.0"
+
+
+[tool.poetry.group.dev.dependencies]
+ipykernel = "^6.29.5"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"

@@ -1,0 +1,12 @@
+databricks.yml
+.databricks
+.dbx
+.env
+.vscode
+
+__pychahce__
+.ipynb_checkpoints
+_resources
+local
+
+*.cpython*
